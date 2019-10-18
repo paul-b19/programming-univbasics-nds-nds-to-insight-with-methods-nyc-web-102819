@@ -15,4 +15,5 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   dir_name = directors_database[director_data][:name]
+  movie
 end
