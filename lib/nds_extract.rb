@@ -23,7 +23,7 @@ end
 # using director_data as input
 
 def gross_for_director(director_data)
-  movies = directors_database[director_data][:movies]
+  movies = director_data[:movies]
   movie_index = 0
   total_profit = 0 
   while movie_index < movies.length do
