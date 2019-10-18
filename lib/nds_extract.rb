@@ -16,6 +16,7 @@ def directors_totals(nds)
     nds_index += 1 
   end
   
+  pp result
   result
 end
 
@@ -30,5 +31,7 @@ def gross_for_director(director_data)
     total_profit += movies[movie_index][:worldwide_gross]
     movie_index += 1 
   end
+  
+  pp total_profit
   total_profit
 end
