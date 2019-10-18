@@ -9,14 +9,13 @@ require 'pp'
 def directors_totals(nds)
   result = {}
   nds_index = 0
-  
   while nds_index < nds.length do
     dir_name = nds[nds_index][:name]
     result[dir_name] = gross_for_director(nds[nds_index])
     nds_index += 1 
   end
   
-  pp result
+  # pp result
   result
 end
 
@@ -32,6 +31,6 @@ def gross_for_director(director_data)
     movie_index += 1 
   end
   
-  pp total_profit
+  # pp total_profit
   total_profit
 end
